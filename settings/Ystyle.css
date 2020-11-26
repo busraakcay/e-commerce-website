@@ -1,0 +1,211 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: white;
+	color: #646464;
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.inputs{
+	width: 95%;
+	height: 30px;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+
+.selects{
+	width: 100%;
+	height: 40px;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+
+.buttons{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff4dc4;
+	padding: 5px 30px;
+	color: white;
+	border-radius: 5px;
+}
+
+.buttons:hover{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff00ff;
+	padding: 5px 30px;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.Sonuclar a:link, .Sonuclar a:hover, .Sonuclar a:active, .Sonuclar a:visited{
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	color: #595959;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.anaMenu a:link, .anaMenu a:hover, .anaMenu a:active, .anaMenu a:visited{
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	color: #262626;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.textAreas{
+	width: 95%;
+	height: 100px;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+.Sayfalama{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaNumara{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaAktif{
+	display: inline-block;
+	width: auto;
+	height: 20px;
+	margin: 0px 1px;
+	margin-bottom: 30px;
+	padding: 5px 7.5px;
+	background: #ffccff;
+	border: 1px solid #ffe6ff;
+	outline: 0;
+	color: #800080;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaPasif{
+	display: inline-block;
+	width: auto;
+	height: 20px;
+	margin: 0px 1px;
+	margin-bottom: 30px;
+	padding: 5px 7.5px;
+	background: #ffccff;
+	border: 1px solid #ffe6ff;
+	outline: 0;
+	color: #646464;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaPasif a:link, .SayfalamaPasif a:hover, .SayfalamaPasif a:active, .SayfalamaPasif a:visited{
+	color: #646464;
+	text-decoration: none;
+}
+
+.Arama{
+	display: block;
+	width: 100%;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+}
+
+.AramaButon{
+	display: inline-block;
+	float: right;
+	width: 60px;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	text-align: left;
+}
+
+.AramaInput{
+	display: inline-block;
+	float: right;
+	width: calc(100% - 60px);
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	text-align: left;
+}
+
+.AramaButonuURL{
+	display: block;
+	width: 60px;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #646464;
+	outline: 0;
+	background: url(../Resimler/AramaButonu.png);
+	background-repeat: no-repeat;
+	background-position: center left 19px;
+}
+
+.AramaButonuURL:hover{
+	cursor: pointer;
+}
+
+.AramaInputuIci{
+	display: block;
+	float: left;
+	width: calc(100% - 42px);
+	height: 33px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #646464;
+	outline: 0;
+	text-align: left;
+}

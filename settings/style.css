@@ -1,0 +1,447 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: white;
+	color: #646464;
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.menu a:link, .menu a:hover, .menu a:active, .menu a:visited{
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	color: #f2f2f2;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.anaMenu a:link, .anaMenu a:hover, .anaMenu a:active, .anaMenu a:visited{
+	font-family: Courier,Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 19px;
+	line-height: 1,5;
+	color: #ff6666;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer a:link, .footer a:hover, .footer a:active, .footer a:visited{
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	color: #595959;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.Sonuclar a:link, .Sonuclar a:hover, .Sonuclar a:active, .Sonuclar a:visited{
+	font-family: Arial, Helvetica, "Open Sans", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	line-height: 1,5;
+	color: #595959;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.inputs{
+	width: 95%;
+	height: 30px;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+
+.selects{
+	width: 100%;
+	height: 40px;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+
+.textAreas{
+	width: 95%;
+	height: 100px;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+
+.buttons{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff4dc4;
+	padding: 5px 30px;
+	color: white;
+	border-radius: 5px;
+}
+
+.buttons:hover{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff00ff;
+	padding: 5px 30px;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.KargoInput{
+	width: 75%;
+	height: 32px;
+	padding: 0px 10px;
+	color: #4d4d4d;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.kargoButton{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff4dc4;
+	padding: 5px 50px;
+	color: white;
+	border-radius: 5px;
+}
+
+.kargoButton:hover{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff00ff;
+	padding: 5px 50px;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.soruBaslik{
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+	font-size: 16px;
+	color: #000000;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px dashed #ff4dc4;
+	cursor: pointer;
+}
+
+.soruBaslik:hover{
+	background: #F1F1F1;
+	cursor: pointer;
+}
+
+.cevap{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.uyeol a:link, .uyeol a:hover, .uyeol a:active, .uyeol a:visited{
+	font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 16px;
+	color: #646464;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.sifremiunuttum a:link, .sifremiunuttum a:hover, .sifremiunuttum a:active, .sifremiunuttum a:visited{
+	font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+	font-size: 16px;
+	color: #ff33cc;
+	line-height: 1.5;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.bilgiguncelle{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff4dc4;
+	padding: 5px 30px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.bilgiguncelle:hover{
+	height: 30px;
+	border: 1px solid #b300b3;
+	background: #ff00ff;
+	padding: 5px 30px;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.Sayfalama{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaNumara{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaAktif{
+	display: inline-block;
+	width: auto;
+	height: 20px;
+	margin: 0px 1px;
+	margin-bottom: 30px;
+	padding: 5px 7.5px;
+	background: #ffccff;
+	border: 1px solid #ffe6ff;
+	outline: 0;
+	color: #800080;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaPasif{
+	display: inline-block;
+	width: auto;
+	height: 20px;
+	margin: 0px 1px;
+	margin-bottom: 30px;
+	padding: 5px 7.5px;
+	background: #ffccff;
+	border: 1px solid #ffe6ff;
+	outline: 0;
+	color: #646464;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.SayfalamaPasif a:link, .SayfalamaPasif a:hover, .SayfalamaPasif a:active, .SayfalamaPasif a:visited{
+	color: #646464;
+	text-decoration: none;
+}
+
+.yorumTextAreas{
+	width: 100%;
+	height: 100px;
+	padding: 10px 10px;
+}
+
+.Arama{
+	display: block;
+	width: 100%;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+}
+
+.AramaButon{
+	display: inline-block;
+	float: right;
+	width: 60px;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	text-align: left;
+}
+
+.AramaInput{
+	display: inline-block;
+	float: right;
+	width: calc(100% - 60px);
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	outline: 0;
+	text-align: left;
+}
+
+.AramaButonuURL{
+	display: block;
+	width: 60px;
+	height: 35px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #646464;
+	outline: 0;
+	background: url(../Resimler/AramaButonu.png);
+	background-repeat: no-repeat;
+	background-position: center left 19px;
+}
+
+.AramaButonuURL:hover{
+	cursor: pointer;
+}
+
+.AramaInputuIci{
+	display: block;
+	float: left;
+	width: calc(100% - 42px);
+	height: 33px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #646464;
+	outline: 0;
+	text-align: left;
+}
+
+.SepetButonu{
+	width: 100%;
+	height: 35px;
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+	background: #ff4dc4;
+	color: white;
+	border: 1px solid #b300b3;
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.SepetButonu:hover{
+	width: 100%;
+	height: 35px;
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+	background: #ff00ff;
+	color: white;
+	border: 1px solid #b300b3;
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.SepetDevamEtButonu{
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	padding: 10px 0px 5px 0px;
+	background: #ff4dc4;
+	color: white;
+	border: 1px solid #b300b3;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.SepetDevamEtButonu:hover{
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	padding: 10px 0px 5px 0px;
+	background: #ff00ff;
+	color: white;
+	border: 1px solid #b300b3;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.SepetDevamEtButonu a{
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.SepetDevamEtButonu a:hover{
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.SepetDevamEtButonu a div{
+	display: inline-block;
+	float: center;
+	height: 20px;
+	max-height: 20px;
+	margin-left: 10px;
+	padding-top: 3px;
+}
+
+.OdemeSecimiButonu{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+	background: #ff4dc4;
+	color: white;
+	border: 1px solid #b300b3;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.OdemeSecimiButonu:hover{
+	cursor: pointer;
+	text-decoration: none;
+	background: #ff00ff;
+	color: white;
+	border: 1px solid #b300b3;
+}
